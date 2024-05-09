@@ -7,8 +7,8 @@ Follow these steps to get the project running on your local machine:
 ## Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/YaIsrak/dpt-circular3-frontend-developer.git
+cd dpt-circular3-frontend-developer
 ```
 
 ## Install dependencies:
