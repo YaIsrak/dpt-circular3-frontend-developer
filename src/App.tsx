@@ -1,11 +1,16 @@
-import { Button } from "./components/ui/button"
+import MasterPrice from "./components/MasterPrice/MasterPrice"
+import NavigationBar from "./components/layout/NavigationBar"
 
 function App() {
   return (
-    <div>
-      <Button>CLick me</Button>
-      <h1>Hello world</h1>
-    </div>
+    <>
+      <NavigationBar />
+      <main className="min-h-screen w-full">
+        <div className="max-w-7xl px-4 mx-auto">
+          <MasterPrice />
+        </div>
+      </main>
+    </>
   )
 }
 
