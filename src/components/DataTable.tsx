@@ -40,7 +40,6 @@ export default function DataTable() {
                 </TableRow>
             </TableHeader>
             <TableBody>
-                {/* TODO:Single Data */}
                 {data?.flightOffer.map((flight, i) => (
                     <TableRow key={i} className="border-red-500">
                         {/* Flight */}
